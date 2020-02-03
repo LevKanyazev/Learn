@@ -1,0 +1,15 @@
+.container .row {
+    height: 200px;
+}
+
+.container .row:nth-child(even) {
+    background: lightgray;
+}
+
+.container .row:nth-child(odd) {
+    background: whitesmoke;
+}
+
+.container .row:first-child div:first-child {
+    background: lightslategray;
+}
